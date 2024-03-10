@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import Countries from './components/Country/Countries';
+import Countries from './components/Countries/Countries';
 import Person from './components/Person/Person';
 import Header from './components/Header/Header';
 
@@ -14,6 +14,7 @@ function App() {
     </div>
   );
 }
+
 
 // function LoadCountries(){
 //   const [countries, setCountries] = useState([]);

@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <h2>Welcome to my react website</h2>
-            <nav>
+            <nav className='menu'>
                 <a href='/home'>Home</a>
                 <a href='/shop'>Shop</a>
                 <a href='/about'>About</a>
